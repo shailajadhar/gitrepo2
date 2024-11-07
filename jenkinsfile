@@ -7,6 +7,7 @@ pipeline {
                 echo 'build World'
             }
         }
+}
         stage('PublishStage') {
             steps {
                 echo 'Publish World'
